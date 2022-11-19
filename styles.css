@@ -1,0 +1,48 @@
+/*Top */
+.Top{
+    background-color: #3998cb ;
+    position: relative;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    margin: 0;
+    padding: 10px;
+    font-size: 2.5rem;
+    color: white;
+}
+
+/*border*/
+.border{
+    background-color: red;
+    height: 1rem;
+    position: relative;
+}
+
+/*Play field */
+body{
+    margin: 0;
+}
+.range{
+    background-color: #a0cfd6;
+    position: relative;
+    height: 92.2vh;
+}
+
+/*Buttons */
+.btn{
+    background-color: rgb(240, 166, 47);
+    height: 2.5rem;
+    width: 2.5rem;
+    border: 0.3rem solid black;
+    border-radius: 20%;
+    position: absolute;
+    left: 50%;
+}
+
+.pressed{
+    box-shadow: 0 0 20px white;
+    background-color: lime;
+}
+
